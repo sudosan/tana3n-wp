@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="tana3n.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tana3n"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid>
+        <TextBlock Margin="10,10,10,0" TextWrapping="Wrap" Text="tana3n is gay" FontSize="48" Width="380" VerticalAlignment="Top" TextAlignment="Center"/>
+        <MediaElement x:Name="SoundGoo" Source="test.wav" AutoPlay="False" />
+        <Image Height="220" Margin="10,95,10,0" VerticalAlignment="Top" Width="380" Source="CC34bmiUUAAdxWR.jpg" Tapped="Image_Tapped"/>
+        <Button Content="Tweet" HorizontalAlignment="Stretch" Margin="10,411,10,94" VerticalAlignment="Stretch" Width="380" Height="135" FontSize="72" Click="Button_Click"/>
+        <TextBlock x:Name="text" Margin="10,342,0,0" TextWrapping="Wrap" Text="tana3n is gay(n回目)" VerticalAlignment="Top" FontSize="36" TextAlignment="Center"/>
+
+    </Grid>
+</Page>
